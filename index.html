@@ -1,56 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Angle Finder</title>
+    <script src="js/Vue/VueDeveloper/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="/css/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <title>Dustin Bennett</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="form_container">
-            <h1>Find the angle</h1>
-            <label for="input1">Side one</label>
-            <input class="input1" type="number">
-            <br>
-            <label for="input2">Side two</label>
-            <input class="input2" type="number">
-
-
-            <form action="" class="formForm">
-                <input type="submit">
-            </form>
-
-            <p class="answerPrintOut"></p>
+    
+    
+    <div class="jumbotron container-fluid text-center">
+        <div class="navbar .navbar-expand{-sm} justify-content-end navbar-custom ">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contact</a>
+                </li>
+            </ul>
         </div>
-
-        <div class="container3">
-            <h1>math</h1>
-            <label for="input3">Side one</label>
-            <input class="input3" type="number">
-            <select name="" id="operators">
-                <option value="+">+</option>
-                <option value="-">-</option>
-                <option value="/">/</option>
-                <option value="*">X</option>
-            </select>
-            <br>
-            <label for="input4">Side two</label>
-            <input class="input4" type="number">
-            <button class="butt" >=</button>
-
-            <input type="text" class="result" >
-        
-            <!-- <p class="result"></p> -->
+        <div id="jumboH1">
+        <h1>Web Developer</h1>
+        <h3>HTML, CSS, Bootstrap, Javascript, Vue.js,</h3>
         </div>
     </div>
+    <!-- End of the Jumbotron -->
+
+
+    <!-- Start of  the About section -->
+    <div class="container-fluid" id="about"> 
+        <h2 class="text-center">About Me</h2>
+        <p>     Spicy jalapeno bacon ipsum dolor amet ham bacon beef jerky, capicola kevin beef ribs sausage pork loin salami short loin
+        flank pastrami tri-tip kielbasa. Jerky ground round tail flank picanha short loin filet mignon salami sausage. Turkey brisket
+        tenderloin, flank tri-tip doner kielbasa cupim jowl tail pancetta. Meatloaf hamburger spare ribs, frankfurter beef tri-tip
+        jerky bacon jowl fatback pork belly ham kevin short loin sausage. Tongue sirloin fatback chuck turducken ground round boudin.
+        <br>     Meatball beef porchetta meatloaf brisket boudin hamburger ham hock kevin short loin pork loin bacon. Bresaola prosciutto
+        flank, drumstick biltong cupim turkey venison kielbasa. Corned beef porchetta tail pig picanha brisket meatloaf turkey landjaeger
+        jerky. Ham kevin cow buffalo, shankle turkey alcatra beef ribs. Biltong turkey fatback, pork frankfurter ball tip flank doner
+        tongue corned beef beef ribs picanha buffalo capicola. Corned beef brisket tail, ball tip t-bone meatloaf tenderloin pork
+        loin cupim pancetta turducken. Tongue t-bone pig frankfurter kevin venison.
+        <br>     Shankle tail biltong turkey. Kevin andouille corned beef filet mignon tri-tip. Tri-tip pork chop cow buffalo bacon drumstick
+        short ribs andouille pig. Boudin cupim biltong burgdoggen frankfurter.</p>
+    </div>
+
+    
+    <!-- start of the picture columns -->
+    
+    <div class="rows d-flex flex-wrap">
+        <div class="col-md-4">
+            <img src="https://picsum.photos/400/300?image=1044" alt="">
+            <h3>project1</h3>
+    m</div>
+        <div class="col-md-4">
+            <img src="https://picsum.photos/400/300?image=1043" alt="">
+            <h3>Project2</h3>
+        </div>
+        <div class="col-md-4">
+            <img src="https://picsum.photos/400/300?image=1037" alt="">
+            <h3>Project3</h3>
+        </div>
+        <div class="col-md-4">
+            <img src="https://picsum.photos/400/300?image=1045" alt="">
+            <h3>project4</h3>
+        </div>
+        <div class="col-md-4">
+            <img src="https://picsum.photos/400/300?image=1048" alt="">
+            <h3>project5</h3>
+        </div>
+        <div class="col-sm-4">
+            <img src="https://picsum.photos/400/300?image=1047" alt="">
+            <h3>project6</h3>
+        </div>
+    </div> 
+    <div class="container" id="blog">
+        
+    </div>
+    <footer class="container-fluid bg-secondary">
+        <h1 class="display-4">This will be the footer</h1>
+     </footer>
+    
 
 
 
-    <script src="main.js"></script>
+
+
+
+
+
+    <script src="/js/main.js"></script>
 </body>
-
 </html>

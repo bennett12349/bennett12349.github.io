@@ -1,0 +1,39 @@
+body{
+    background-color: lightgray;
+}
+.navbar ul li a {
+    color: white;
+    
+}
+
+
+
+.jumbotron{
+    height: 100vh;
+    width: 100vw;
+    /* background-image:url("/img/pexels-photo-270348.jpeg"); */
+    background-image:url("/img/backgroundImage.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 0;
+}
+
+#jumboH1{
+    padding-top: 30vh; 
+    font-size: ;
+}
+
+#jumboH1 h1{
+    font-size: 5em;
+}
+
+
+#about p {
+    /* text-indent: 40px; */
+    text-indent: 5em each-line;
+    
+}
+
+
+
